@@ -10,6 +10,7 @@
 public interface Driveable {
 
 //    is it a flaw having two in here?
+//    replace with generic method -- to learn about still, could i use "move" and just override in other classes?
     public void drive();
     public void ride(); //this means that every class below it needs to have a ride too I think?
 
